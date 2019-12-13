@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#ffd400"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_marginBottom="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YekaoTalk"
+        android:textColor="#783c00"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/idLayout">
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:hint="이메일"
+        android:id="@+id/etId"
+        android:background="#FFFFFF"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/pwLayout">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:inputType="textPassword"
+            android:hint="비밀번호"
+            android:id="@+id/etPw"
+            android:background="#FFFFFF"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <ProgressBar
+        android:id="@+id/pbLogin"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="로그인"
+        android:id="@+id/btnLogin"
+        android:textColor="#FFFFFF"
+        android:background="#783c00"
+        android:layout_marginBottom="10dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="아이디가 없으신가요?  "
+            android:textColor="#783c00"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="가입하기"
+            android:id="@+id/tvSignup"
+            android:clickable="true"
+            android:textColor="#783c00"/>
+    </LinearLayout>
+
+</LinearLayout>

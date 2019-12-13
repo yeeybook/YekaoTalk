@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity"
+    android:orientation="vertical"
+    android:background="#ffd400"
+    android:gravity="center"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/imgProfile"
+        android:layout_marginTop="-40dp"
+        android:layout_marginBottom="40dp"
+        android:src="@drawable/default_profile"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:hint="이름"
+            android:id="@+id/etName"
+            android:background="#FFFFFF"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/idLayout">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:hint="이메일"
+                android:id="@+id/etId"
+                android:background="#FFFFFF"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/pwLayout">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:hint="비밀번호(6~20자리)"
+                android:inputType="textPassword"
+                android:id="@+id/etPw"
+                android:background="#FFFFFF"
+                android:maxLength="20"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginStart="40dp"
+            android:id="@+id/pwChkLayout">
+            <EditText
+                android:layout_width="220dp"
+                android:layout_height="30dp"
+                android:hint="비밀번호 확인"
+                android:inputType="textPassword"
+                android:id="@+id/etPwChk"
+                android:background="#FFFFFF"
+                android:maxLength="20"/>
+
+        </android.support.design.widget.TextInputLayout>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:scaleType="fitStart"
+            android:id="@+id/imgChk"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:text="가입하기"
+        android:id="@+id/btnSignup"
+        android:textColor="#FFFFFF"
+        android:background="#783c00"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

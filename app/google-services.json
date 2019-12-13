@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "792011597933",
+    "firebase_url": "https://yekaotalk-bd58d.firebaseio.com",
+    "project_id": "yekaotalk-bd58d",
+    "storage_bucket": "yekaotalk-bd58d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792011597933:android:db09f0eac230670551f764",
+        "android_client_info": {
+          "package_name": "com.example.yeeybook.yekaotalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792011597933-u8lu4d8a5j4nbigdgj1t320tb20pk29p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yeeybook.yekaotalk",
+            "certificate_hash": "fb6dd213fa7d75d22478204db88c8f6ae9f9a9a6"
+          }
+        },
+        {
+          "client_id": "792011597933-an8aadk3u26p4qevqkt1hpvqch7ir7fc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDliOf-xQeGxyXORFtQKmyPSPhVGsj1OOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792011597933-an8aadk3u26p4qevqkt1hpvqch7ir7fc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
