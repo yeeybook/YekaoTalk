@@ -7,9 +7,13 @@
     tools:context=".LoginActivity"
     android:orientation="vertical"
     android:gravity="center"
+<<<<<<< HEAD
     android:background="#ffd400"
     android:focusable="true"
     android:focusableInTouchMode="true">
+=======
+    android:background="#ffd400">
+>>>>>>> dd4f2bc50f5a28155f14b962a0f5c1cac8835ee9
 
     <TextView
         android:layout_marginBottom="50dp"
@@ -21,10 +25,16 @@
         android:textSize="30dp" />
 
     <android.support.design.widget.TextInputLayout
+<<<<<<< HEAD
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:id="@+id/idLayout">
+=======
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+>>>>>>> dd4f2bc50f5a28155f14b962a0f5c1cac8835ee9
     <EditText
         android:layout_width="200dp"
         android:layout_height="30dp"
@@ -35,10 +45,16 @@
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
         android:gravity="center"
         android:id="@+id/pwLayout">
         <EditText
             android:layout_marginTop="10dp"
+=======
+        android:gravity="center">
+        <EditText
+            android:layout_marginTop="5dp"
+>>>>>>> dd4f2bc50f5a28155f14b962a0f5c1cac8835ee9
             android:layout_marginBottom="10dp"
             android:layout_width="200dp"
             android:layout_height="30dp"

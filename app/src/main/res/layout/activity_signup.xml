@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> dd4f2bc50f5a28155f14b962a0f5c1cac8835ee9
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".SignupActivity"
     android:orientation="vertical"
     android:background="#ffd400"
@@ -105,3 +110,8 @@
         android:layout_marginTop="20dp"/>
 
 </LinearLayout>
+=======
+    tools:context=".SignupActivity">
+
+</android.support.constraint.ConstraintLayout>
+>>>>>>> dd4f2bc50f5a28155f14b962a0f5c1cac8835ee9

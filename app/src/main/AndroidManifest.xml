@@ -17,8 +17,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginActivity" />
+<<<<<<< HEAD
         <activity android:name=".SignupActivity" />
         <activity android:name=".MainActivity"></activity>
+=======
+        <activity android:name=".SignupActivity"></activity>
+>>>>>>> dd4f2bc50f5a28155f14b962a0f5c1cac8835ee9
     </application>
 
 </manifest>
