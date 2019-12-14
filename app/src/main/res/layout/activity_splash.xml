@@ -7,19 +7,12 @@
     tools:context=".SplashActivity"
     android:gravity="center"
     android:orientation="vertical"
-    android:background="#ffd400"
+    android:background="@color/mint"
     android:id="@+id/splashLinearLayout">
 
     <ImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
         android:src="@drawable/splash_icon"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="YekaoTalk"
-        android:textSize="25dp"
-        android:textColor="#783c00"
-        android:textStyle="bold"/>
 
 </LinearLayout>

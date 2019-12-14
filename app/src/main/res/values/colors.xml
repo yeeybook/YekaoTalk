@@ -3,4 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="itemBackground">#aabbcc</color>
+    <color name="background">#EBEBEB</color>
+    <color name="mint">#0099a4</color>
+    <color name="choco">#77423d</color>
 </resources>
+

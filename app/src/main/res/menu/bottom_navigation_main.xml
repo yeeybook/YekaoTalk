@@ -3,14 +3,14 @@
 
     <item
         android:id="@+id/action_people"
-        android:icon="@drawable/baseline_people_outline_black_24"
+        android:icon="@drawable/baseline_people_black_24"
         android:title="People"/>
     <item
         android:id="@+id/action_chat"
-        android:icon="@drawable/baseline_chat_bubble_outline_black_24"
+        android:icon="@drawable/baseline_chat_bubble_black_24"
         android:title="Chat"/>
     <item
         android:id="@+id/action_account"
-        android:icon="@drawable/outline_account_circle_black_24"
+        android:icon="@drawable/baseline_account_circle_black_24"
         android:title="Account"/>
 </menu>

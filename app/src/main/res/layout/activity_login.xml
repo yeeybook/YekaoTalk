@@ -7,16 +7,17 @@
     tools:context=".LoginActivity"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="#ffd400"
+    android:background="@color/mint"
     android:focusable="true"
     android:focusableInTouchMode="true">
+
 
     <TextView
         android:layout_marginBottom="50dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="YekaoTalk"
-        android:textColor="#783c00"
+        android:textColor="@color/choco"
         android:textStyle="bold"
         android:textSize="30dp" />
 
@@ -32,13 +33,14 @@
         android:id="@+id/etId"
         android:background="#FFFFFF"/>
     </android.support.design.widget.TextInputLayout>
+
     <android.support.design.widget.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:id="@+id/pwLayout">
         <EditText
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_marginBottom="10dp"
             android:layout_width="200dp"
             android:layout_height="30dp"
@@ -48,13 +50,13 @@
             android:background="#FFFFFF"/>
     </android.support.design.widget.TextInputLayout>
 
-
     <ProgressBar
         android:id="@+id/pbLogin"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_gravity="center"
-        android:visibility="gone"/>
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleLarge" />
 
     <Button
         android:layout_width="200dp"
@@ -62,8 +64,10 @@
         android:text="로그인"
         android:id="@+id/btnLogin"
         android:textColor="#FFFFFF"
-        android:background="#783c00"
+        android:background="@color/choco"
+        android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"/>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,14 +76,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="아이디가 없으신가요?  "
-            android:textColor="#783c00"/>
+            android:textColor="@color/choco"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="가입하기"
             android:id="@+id/tvSignup"
             android:clickable="true"
-            android:textColor="#783c00"/>
+            android:textColor="@color/choco"/>
     </LinearLayout>
 
 </LinearLayout>
