@@ -31,7 +31,8 @@
         android:layout_height="30dp"
         android:hint="이메일"
         android:id="@+id/etId"
-        android:background="#FFFFFF"/>
+        android:background="#FFFFFF"
+        android:singleLine="true"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -47,7 +48,8 @@
             android:inputType="textPassword"
             android:hint="비밀번호"
             android:id="@+id/etPw"
-            android:background="#FFFFFF"/>
+            android:background="#FFFFFF"
+            android:singleLine="true"/>
     </android.support.design.widget.TextInputLayout>
 
     <ProgressBar

@@ -28,7 +28,8 @@
             android:layout_height="30dp"
             android:hint="이름"
             android:id="@+id/etName"
-            android:background="#FFFFFF"/>
+            android:background="#FFFFFF"
+            android:singleLine="true"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -42,7 +43,8 @@
                 android:layout_height="30dp"
                 android:hint="이메일"
                 android:id="@+id/etId"
-                android:background="#FFFFFF"/>
+                android:background="#FFFFFF"
+                android:singleLine="true"/>
 
     </android.support.design.widget.TextInputLayout>
 
@@ -60,7 +62,8 @@
                 android:inputType="textPassword"
                 android:id="@+id/etPw"
                 android:background="#FFFFFF"
-                android:maxLength="20"/>
+                android:maxLength="20"
+                android:singleLine="true"/>
     </android.support.design.widget.TextInputLayout>
 
     <LinearLayout
@@ -81,7 +84,8 @@
                 android:inputType="textPassword"
                 android:id="@+id/etPwChk"
                 android:background="#FFFFFF"
-                android:maxLength="20"/>
+                android:maxLength="20"
+                android:singleLine="true"/>
 
         </android.support.design.widget.TextInputLayout>
         <ImageView
