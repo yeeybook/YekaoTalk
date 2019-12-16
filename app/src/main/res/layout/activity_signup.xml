@@ -95,8 +95,15 @@
             android:id="@+id/imgChk"
             android:layout_marginStart="10dp"
             android:layout_marginTop="5dp"/>
-    </LinearLayout>
 
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/pbSignup"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        style="?android:attr/progressBarStyleLarge" />
     <Button
         android:layout_width="200dp"
         android:layout_height="40dp"

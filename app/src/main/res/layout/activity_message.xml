@@ -1,9 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".chat.MessageActivity">
+    tools:context=".chat.MessageActivity"
+    android:background="#aed3f0">
 
-</android.support.constraint.ConstraintLayout>
+    <RelativeLayout
+        android:layout_width="20dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/etText"
+        android:id="@+id/rlLeft"
+        android:background="#FFFFFF"></RelativeLayout>
+    <EditText
+        android:layout_width="330dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/rlLeft"
+        android:layout_toStartOf="@+id/btnSend"
+        android:id="@+id/etText"
+        android:background="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/btnSend"
+        android:src="@drawable/send"
+        android:scaleType="fitStart"
+        android:background="#FFFFFF"/>
+    <!--<RelativeLayout-->
+        <!--android:layout_width="10dp"-->
+        <!--android:layout_height="35dp"-->
+        <!--android:background="#000000"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_alignParentRight="true"-->
+        <!--android:id="@+id/rlRight"></RelativeLayout>-->
+</RelativeLayout>
