@@ -7,18 +7,20 @@
     tools:context=".chat.MessageActivity"
     android:background="#aed3f0">
 
-    <RelativeLayout
-        android:layout_width="20dp"
-        android:layout_height="35dp"
-        android:layout_alignParentBottom="true"
-        android:layout_toStartOf="@+id/etText"
-        android:id="@+id/rlLeft"
-        android:background="#FFFFFF"></RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/messageActivityRecyclerview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"></android.support.v7.widget.RecyclerView>
     <EditText
-        android:layout_width="330dp"
+        android:layout_width="350dp"
         android:layout_height="35dp"
         android:layout_alignParentBottom="true"
-        android:layout_toRightOf="@+id/rlLeft"
         android:layout_toStartOf="@+id/btnSend"
         android:id="@+id/etText"
         android:background="#FFFFFF"/>
@@ -32,11 +34,4 @@
         android:src="@drawable/send"
         android:scaleType="fitStart"
         android:background="#FFFFFF"/>
-    <!--<RelativeLayout-->
-        <!--android:layout_width="10dp"-->
-        <!--android:layout_height="35dp"-->
-        <!--android:background="#000000"-->
-        <!--android:layout_alignParentBottom="true"-->
-        <!--android:layout_alignParentRight="true"-->
-        <!--android:id="@+id/rlRight"></RelativeLayout>-->
 </RelativeLayout>

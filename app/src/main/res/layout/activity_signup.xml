@@ -14,7 +14,7 @@
     <ImageView
         android:layout_width="110dp"
         android:layout_height="110dp"
-        android:id="@+id/imgProfile"
+        android:id="@+id/item_message_imgProfile"
         android:layout_marginTop="-40dp"
         android:layout_marginBottom="40dp"
         android:src="@drawable/default_profile"/>
