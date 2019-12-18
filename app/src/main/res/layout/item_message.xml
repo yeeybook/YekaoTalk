@@ -2,33 +2,63 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:id="@+id/item_message_linearMain">
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/item_message_linearDestination"
         android:orientation="vertical"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginBottom="5dp">
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="47dp"
+            android:layout_height="47dp"
             android:id="@+id/item_message_imgProfile"
-            android:layout_marginBottom="3dp"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="3dp"/>
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginBottom="2dp"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/item_message_tvName"
             android:textStyle="bold"
+            android:textSize="13dp"
             android:text="이름" />
     </LinearLayout>
-
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/item_message_linearTime">
     <TextView
-        android:layout_marginLeft="3dp"
-        android:layout_marginTop="8dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/item_message_tvLeftTimestamp"
+        android:visibility="gone"
+        android:text="1:11 PM"
+        android:textSize="10dp"
+        android:textColor="#4b4b4b"/>
+    <TextView
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginRight="3dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="메세지"
         android:id="@+id/item_message_tvMessage"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/item_message_tvRightTimestamp"
+        android:visibility="gone"
+        android:text="1:11 PM"
+        android:textSize="10dp"
+        android:textColor="#4b4b4b"/>
+</LinearLayout>
 
 </LinearLayout>

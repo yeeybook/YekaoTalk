@@ -29,7 +29,8 @@
             android:hint="이름"
             android:id="@+id/etName"
             android:background="#FFFFFF"
-            android:singleLine="true"/>
+            android:singleLine="true"
+            android:lines = "1"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -44,7 +45,8 @@
                 android:hint="이메일"
                 android:id="@+id/etId"
                 android:background="#FFFFFF"
-                android:singleLine="true"/>
+                android:singleLine="true"
+                android:lines = "1"/>
 
     </android.support.design.widget.TextInputLayout>
 
@@ -63,7 +65,8 @@
                 android:id="@+id/etPw"
                 android:background="#FFFFFF"
                 android:maxLength="20"
-                android:singleLine="true"/>
+                android:singleLine="true"
+                android:lines = "1"/>
     </android.support.design.widget.TextInputLayout>
 
     <LinearLayout
@@ -85,7 +88,8 @@
                 android:id="@+id/etPwChk"
                 android:background="#FFFFFF"
                 android:maxLength="20"
-                android:singleLine="true"/>
+                android:singleLine="true"
+                android:lines = "1"/>
 
         </android.support.design.widget.TextInputLayout>
         <ImageView

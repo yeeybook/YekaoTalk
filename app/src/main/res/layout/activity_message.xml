@@ -6,15 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".chat.MessageActivity"
     android:background="#aed3f0">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/rl">
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="13dp"
+        android:text=""
+        android:textColor="#4b4b4b"
+        android:id="@+id/tvDate"/></RelativeLayout>
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/messageActivityRecyclerview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_above="@+id/etText"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
+        android:layout_below="@+id/rl"
         android:layout_alignParentEnd="true"
         android:layout_alignParentStart="true"></android.support.v7.widget.RecyclerView>
     <EditText
