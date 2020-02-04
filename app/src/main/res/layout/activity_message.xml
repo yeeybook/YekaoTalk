@@ -26,7 +26,9 @@
         android:layout_above="@+id/etText"
         android:layout_below="@+id/rl"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentStart="true"></android.support.v7.widget.RecyclerView>
+        android:layout_alignParentStart="true">
+
+    </android.support.v7.widget.RecyclerView>
     <EditText
         android:layout_width="350dp"
         android:layout_height="35dp"
