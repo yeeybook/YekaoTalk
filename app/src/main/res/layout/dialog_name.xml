@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="match_parent">
 
     <ImageView
         android:layout_width="match_parent"
@@ -14,6 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="4dp"
-        android:hint="상태 메세지를 입력하세요"
-        android:id="@+id/etStatusDialog"/>
+        android:hint="이름을 입력하세요"
+        android:id="@+id/etNameDialog"/>
 </LinearLayout>
