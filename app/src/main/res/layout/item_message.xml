@@ -26,11 +26,28 @@
             android:textSize="13dp"
             android:text="이름" />
     </LinearLayout>
+
 <LinearLayout
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:id="@+id/item_message_linearTime">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_message_tvReadCounterLeft"
+            android:textSize="10dp"
+            android:textColor="#FFDF22"
+            android:textStyle="bold"
+            android:text="L"
+            android:visibility="gone"
+            android:layout_gravity="right"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -41,6 +58,7 @@
         android:text="1:11 PM"
         android:textSize="10dp"
         android:textColor="#4b4b4b"/>
+    </LinearLayout>
     <TextView
         android:layout_marginLeft="3dp"
         android:layout_marginTop="6dp"
@@ -49,6 +67,22 @@
         android:layout_height="wrap_content"
         android:text="메세지"
         android:id="@+id/item_message_tvMessage"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/item_message_tvReadCounterRight"
+            android:textSize="9dp"
+            android:textColor="#FFDF22"
+            android:textStyle="bold"
+            android:text="R"
+            android:layout_gravity="left"
+            android:visibility="gone"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -59,6 +93,7 @@
         android:text="1:11 PM"
         android:textSize="10dp"
         android:textColor="#4b4b4b"/>
+    </LinearLayout>
 </LinearLayout>
 
 </LinearLayout>
