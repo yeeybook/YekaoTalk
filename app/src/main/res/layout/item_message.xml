@@ -12,8 +12,8 @@
         android:gravity="center"
         android:layout_marginBottom="5dp">
         <ImageView
-            android:layout_width="47dp"
-            android:layout_height="47dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
             android:id="@+id/item_message_imgProfile"
             android:layout_marginLeft="5dp"
             android:layout_marginRight="3dp"
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/item_message_tvName"
             android:textStyle="bold"
-            android:textSize="13dp"
+            android:textSize="10dp"
             android:text="이름" />
     </LinearLayout>
 
@@ -66,6 +66,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="메세지"
+        android:textSize="11dp"
         android:id="@+id/item_message_tvMessage"/>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -76,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/item_message_tvReadCounterRight"
-            android:textSize="9dp"
+            android:textSize="10dp"
             android:textColor="#FFDF22"
             android:textStyle="bold"
             android:text="R"
