@@ -23,8 +23,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/item_message_tvName"
             android:textStyle="bold"
-            android:textSize="10dp"
-            android:text="이름" />
+            android:textSize="11dp"
+            android:text="이름"
+            android:layout_marginLeft="1dp"/>
     </LinearLayout>
 
 <LinearLayout
@@ -42,7 +43,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/item_message_tvReadCounterLeft"
             android:textSize="10dp"
-            android:textColor="#FFDF22"
+            android:textColor="@color/yellow"
             android:textStyle="bold"
             android:text="L"
             android:visibility="gone"
@@ -78,7 +79,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/item_message_tvReadCounterRight"
             android:textSize="10dp"
-            android:textColor="#FFDF22"
+            android:textColor="@color/yellow"
             android:textStyle="bold"
             android:text="R"
             android:layout_gravity="left"
